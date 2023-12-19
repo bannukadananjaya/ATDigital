@@ -1,5 +1,5 @@
 import "./Footer.css";
-import img_logo from "../../assets/logo.png";
+
 const Footer = () => {
   return (
     <footer>
@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-row">
             <div className="footer-box-1">
-              <img src={img_logo} alt="" />
+              <img src="./logo.png" alt="" />
               <p>
                 Your goal is our target. Not anything in between. We use online
                 marketing platforms and tools to achieve single objective - your

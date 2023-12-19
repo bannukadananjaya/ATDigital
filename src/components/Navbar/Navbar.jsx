@@ -1,12 +1,13 @@
 import "./Navbar.css";
-import img_logo from "../../assets/logo.png";
+// import img_logo from "../../../public/assets/logo.png";
+
 const Navbar = () => {
   return (
     <nav>
       <div className="wrapper">
       <div className="nav-content">
         <a href="#" className="logo">
-          <img src={img_logo} alt="" />
+          <img src="./logo.png" alt="" />
         </a>
 
         <ul>
