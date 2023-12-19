@@ -1,0 +1,132 @@
+footer {
+  background: #6b3cc9;
+  padding: 40px 0;
+  /* width: 100%; */
+  /* border: 2px solid red; */
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  /* border: 2px solid red;  */
+}
+.footer-row {
+  display: flex;
+}
+.footer-box-1 {
+  display: flex;
+  flex: 0.5;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  /* border: 2px solid red; */
+}
+.footer-box-1 p {
+  width: 413px;
+  color: #fff;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-box-2 {
+  display: flex;
+  flex: 0.5;
+  justify-content: space-around;
+}
+.footer-box-2-content {
+  align-items: flex-start;
+  gap: 12px;
+
+}
+.footer-box-2-content ul {
+  display: flex;
+  flex-direction: column;
+}
+.footer-box-2-content h1 {
+  color: #fff;
+  font-family: Inter;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.footer-box-2-content p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.auth-text {
+  margin: 0 auto;
+  position: relative;
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.auth-text::before {
+  content: "";
+  width: 630px;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  top: -10px;
+  left: -160px;
+}
+
+@media (max-width: 1200px) {
+  footer {
+    /* max-width: 1400px; */
+    /* border:2px solid red;  */
+    /* width: 100%; */
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 40px 40px;
+
+  }
+  .footer-content {
+    width: 100%;
+  }
+
+  .footer-row {
+    flex-direction: column;
+  }
+
+  .footer-box-1 {
+    width: 768px;
+  }
+
+  .footer-box-2 {
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-start;
+    gap: 80px;
+  }
+}
+
+@media (max-width: 375px) {
+
+  .footer-box-2 {
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
