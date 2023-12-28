@@ -1,5 +1,5 @@
 nav {
-   /* width: 100%; */
+  /* width: 100%; */
   /* position: fixed; */
   padding: 26px 0;
   background: #6b3cc9;
@@ -7,7 +7,7 @@ nav {
   /* border:2px solid red; */
 }
 
-.nav-content{
+.nav-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,26 +20,33 @@ ul {
   gap: 28px;
 }
 
-ul li a{
+ul li a {
   color: #fff;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
-ul li a:last-child{
-margin-right: 28px;
+ul li a:last-child {
+  margin-right: 28px;
 }
 
-
-@media(max-width:768px){
-  nav{
-    padding: 26px 40px;
+@media (max-width: 1200px) {
+  nav {
+    width: 1200px;
   }
 }
 
-@media(max-width:375px){
+@media (max-width: 768px) {
+  /* nav {
+    width: 768px;
+  } */
+}
 
+@media (max-width: 400px) {
+  nav {
+    width: 400px;
+  }
   ul {
     display: none;
   }

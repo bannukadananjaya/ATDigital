@@ -1,11 +1,11 @@
 import "./Header.css";
-// import header_img from "../../../public/assets/header.png";
+import {img_header} from '../../assets/';
 const Header = () => {
   return (
     <header>
       <div className=" header-content">
         <div className="header-img">
-          <img src="./header.png" alt="" className="img-responsive" />
+          <img src={img_header} alt="" className="img-responsive" />
         </div>
         <div className="header-text">
           <h1 className="header-title  wrapper">

@@ -4,11 +4,13 @@ header {
 }
 .header-content {
   display: flex;
+
 }
 
 .header-img {
   width:100%
 }
+
 .header-text {
   display: flex;
   flex-direction: column;
@@ -39,7 +41,7 @@ header .header-title {
 
   .header-text{
     width: 100%;
-    height: fit-content;
+    /* height: fit-content; */
     position: static; 
 
   }

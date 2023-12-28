@@ -1,13 +1,13 @@
 import "./Services.css";
-// import img_screen from "../../assets/screen.png";
-// import img_search from "../../assets/search.png";
+import {screen} from "../../assets";
+import {search} from "../../assets";
 const Services = () => {
   return (
     <section>
       <div className="content-wrapper">
         <div className="content ">
           <div className="content-img">
-            <img src="./screen.png" alt="" className="img-responsive" />
+            <img src={screen} alt=""  className="img-responsive"/>
           </div>
           <div className="content-info">
             <h2>Web & Mobile App Development</h2>
@@ -32,7 +32,7 @@ const Services = () => {
             <button>Learn More</button>
           </div>
           <div className="content-img">
-            <img src="./search.png" alt="" className="img-responsive" />
+            <img src={search} alt="" className="img-responsive" />
           </div>
         </div>
       </div>

@@ -1,15 +1,21 @@
 section {
-  /* width: 100%; */
+  border: 2px solid blue;
+  width: 100%;
 }
 .content {
-  display: inline-flex;
-  gap: 108px;
+  display: grid 1fr 1fr;
+  /* gap: 108px; */
   align-items: center;
+  justify-content: space-between;
 
 }
-
+.content-img{
+  border: 2px solid green;
+  width: 300px;
+}
 .content-img img {
-  width: 400px;
+  border: 2px solid red;
+  /* width: 300px; */
   object-fit: cover;
 }
 
